@@ -14,6 +14,7 @@
 		69E795681A7EF1090028CAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E795671A7EF1090028CAF5 /* Images.xcassets */; };
 		69E7956B1A7EF1090028CAF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E795691A7EF1090028CAF5 /* LaunchScreen.xib */; };
 		69E795771A7EF1090028CAF5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E795761A7EF1090028CAF5 /* Git_TestTests.m */; };
+		69E795811A7EF3070028CAF5 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E795801A7EF3070028CAF5 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		69E795701A7EF1090028CAF5 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E795751A7EF1090028CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E795761A7EF1090028CAF5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		69E795801A7EF3070028CAF5 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		69E795591A7EF1090028CAF5 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				69E795801A7EF3070028CAF5 /* Test.m */,
 				69E7955E1A7EF1090028CAF5 /* AppDelegate.h */,
 				69E7955F1A7EF1090028CAF5 /* AppDelegate.m */,
 				69E795611A7EF1090028CAF5 /* ViewController.h */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E795631A7EF1090028CAF5 /* ViewController.m in Sources */,
+				69E795811A7EF3070028CAF5 /* Test.m in Sources */,
 				69E795601A7EF1090028CAF5 /* AppDelegate.m in Sources */,
 				69E7955D1A7EF1090028CAF5 /* main.m in Sources */,
 			);
